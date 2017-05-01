@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_gray">#e1e0e2</color>
+    <color name="scroll_set_value_progress_bar_solid">#f8fdf9</color>
+    <color name="blood_sugar_low_color_small">#ffff0000</color>
+    <color name="blood_sugar_low_color_big">#ffff4343</color>
+    <color name="blood_sugar_hight_color_small">#ffff8942</color>
+    <color name="blood_sugar_hight_color_big">#ffff600a</color>
+</resources>
