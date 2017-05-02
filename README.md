@@ -21,6 +21,31 @@ a circle progressbar likes the sun can be scrolled to set value.<br>
 	        compile 'com.github.jackBear168:ScrollSetValueCirclePb:v1.0'
 	}
 ```
+3.在你的布局文件中引用这个控件
+```Java
+ <com.jackxiong.scrollsetvaluecircleprogressbar.ScrollSetValueProgressCircle
+        android:id="@+id/pb_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+```
+4.界面初始化时设置显示的默认值的函数
+```Java
+testPb.setValue(6.9f);
+```
+5.获取当前值的回调函数
+```Java
+testPb.setValueChangeListener(new ScrollSetValueProgressCircle.ValueChangeListener() {
+            @Override
+            public void currentValue(float value) {
+
+                Log.d(TAG,"current value= "+ value);
+            }
+        });
+```
+
+
 
 
 
