@@ -6,6 +6,14 @@ a circle progressbar likes the sun can be scrolled to set value.<br>
 ![](https://github.com/jackbear168/ScrollSetValueCirclePb/raw/master/normal.jpg)
 ![](https://github.com/jackbear168/ScrollSetValueCirclePb/raw/master/high.jpg)
 * 怎么用<br>
+1.在你project下的build.gradle里添加如下代码<br>
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
 
 
 
