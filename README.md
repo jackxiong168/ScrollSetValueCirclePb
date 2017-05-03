@@ -44,6 +44,9 @@ testPb.setValueChangeListener(new ScrollSetValueProgressCircle.ValueChangeListen
 ```
 
 
+代码中也写了注释,待优化之处还请各位不吝赐教,联系我呀.个人邮箱:xwj_it@163.com
+
+
 
 
 
